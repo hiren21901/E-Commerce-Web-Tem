@@ -120,9 +120,9 @@ function Register() {
                                                 </div>
 
                                                 <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4" >
-                                                    <button type="button" className="btn btn-primary btn-lg" onClick={register}>
-                                                        Register
-                                                    </button>
+                                                        <button type="button" className="btn btn-primary btn-lg" onClick={register}>
+                                                            Register
+                                                        </button>
                                                     <Link to='/login'><button type="button" className="btn btn-primary btn-lg btn_login">
                                                         Login<FaArrowRight className='login_arrow' />
                                                     </button></Link>

@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 function Adminhome() {
-  return (
-    <>
- <nav className="main-header navbar navbar-expand navbar-white navbar-light">
+    return (
+        <>
+            <nav className="main-header navbar navbar-expand navbar-white navbar-light">
                 {/* Left navbar links */}
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -403,9 +403,9 @@ function Adminhome() {
                     </div>
                 </section>
             </div>
-        
-    </>
-  )
+
+        </>
+    )
 }
 
 export default Adminhome;

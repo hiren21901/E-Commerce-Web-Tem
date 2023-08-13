@@ -409,11 +409,11 @@ function Editproduct() {
                                             </div>
                                         </div>
                                         {/* /.card-body */}
-                                        <div className="card-footer">
-                                            <button type="button" className="btn btn-primary" onClick={submit}>
-                                                Submit
-                                            </button>
-                                        </div>
+                                            <div className="card-footer">
+                                                <button type="button" className="btn btn-primary" onClick={submit}>
+                                                    Submit
+                                                </button>
+                                            </div>
                                     </form>
                                 </div>
 

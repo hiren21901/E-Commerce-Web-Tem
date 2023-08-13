@@ -30,7 +30,7 @@ function Addproduct() {
                     // issetget(true)
                 }
                 console.log(response);
-                navigate("/Showproduct");
+                navigate("/ShowMovie");
             })
             .catch(function (error) {
                 console.log(error);
@@ -361,7 +361,7 @@ function Addproduct() {
                                                     onChange={(e) => { setimage(e.target.value) }}
                                                 />
                                             </div>
-                                            <div className="form-group">
+                                               <div className="form-group">
                                                 <label htmlFor="productName">Product Name</label>
                                                 <input
                                                     type="text"
